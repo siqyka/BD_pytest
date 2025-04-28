@@ -1,0 +1,12 @@
+2025-04-24 16:13:48 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_homepage
+2025-04-24 16:14:06 [INFO] | test_baiduhomepage.py:17 -- case test_homepage pass
+2025-04-24 16:14:08 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clicknews
+2025-04-24 16:14:12 [INFO] | test_baiduhomepage.py:32 -- case test_clicknews pass
+2025-04-24 16:14:14 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickhao123
+2025-04-24 16:14:19 [INFO] | test_baiduhomepage.py:47 -- case test_hao123 pass
+2025-04-24 16:14:21 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickmap
+2025-04-24 16:14:27 [INFO] | test_baiduhomepage.py:62 -- case test_clickmap pass
+2025-04-24 16:14:29 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickmore
+2025-04-24 16:14:32 [INFO] | test_baiduhomepage.py:75 -- step more pass
+2025-04-24 16:14:36 [INFO] | test_baiduhomepage.py:85 -- step fanyi pass
+2025-04-24 16:14:36 [INFO] | test_baiduhomepage.py:86 -- case test_clickmore pass

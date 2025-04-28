@@ -1,0 +1,210 @@
+2025-04-27 09:23:28 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_homepage
+2025-04-27 09:23:54 [ERROR] | conftest.py:26 -- case failed : test_homepage
+error_message :
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:340: in from_call
+    result: Optional[TResult] = func()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:240: in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:87: in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:63: in thread_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:90: in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:65: in unraisable_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:849: in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:832: in _runtest_for
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py:883: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py:256: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:182: in pytest_runtest_call
+    raise e
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:172: in pytest_runtest_call
+    item.runtest()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:1772: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:195: in pytest_pyfunc_call
+    result = testfunction(**testargs)
+testcase\test_baiduhomepage.py:14: in test_homepage
+    title = baidu_page.title
+E   NameError: name 'baidu_page' is not defined
+2025-04-27 09:23:56 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clicknews
+2025-04-27 09:23:58 [ERROR] | conftest.py:26 -- case failed : test_clicknews
+error_message :
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:340: in from_call
+    result: Optional[TResult] = func()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:240: in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:87: in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:63: in thread_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:90: in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:65: in unraisable_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:849: in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:832: in _runtest_for
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py:883: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py:256: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:182: in pytest_runtest_call
+    raise e
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:172: in pytest_runtest_call
+    item.runtest()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:1772: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:195: in pytest_pyfunc_call
+    result = testfunction(**testargs)
+testcase\test_baiduhomepage.py:22: in test_clicknews
+    baidu_page.find_element(By.LINK_TEXT, "新闻").click()#s-top-left > a:nth-child(1)
+E   NameError: name 'baidu_page' is not defined
+2025-04-27 09:24:00 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickhao123
+2025-04-27 09:24:02 [ERROR] | conftest.py:26 -- case failed : test_clickhao123
+error_message :
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:340: in from_call
+    result: Optional[TResult] = func()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:240: in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:87: in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:63: in thread_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:90: in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:65: in unraisable_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:849: in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:832: in _runtest_for
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py:883: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py:256: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:182: in pytest_runtest_call
+    raise e
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:172: in pytest_runtest_call
+    item.runtest()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:1772: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:195: in pytest_pyfunc_call
+    result = testfunction(**testargs)
+testcase\test_baiduhomepage.py:37: in test_clickhao123
+    baidu_page.find_element(By.CSS_SELECTOR, "#s-top-left > a:nth-child(2)").click()
+E   NameError: name 'baidu_page' is not defined
+2025-04-27 09:24:04 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickmap
+2025-04-27 09:24:06 [ERROR] | conftest.py:26 -- case failed : test_clickmap
+error_message :
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:340: in from_call
+    result: Optional[TResult] = func()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:240: in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:87: in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:63: in thread_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:90: in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:65: in unraisable_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:849: in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:832: in _runtest_for
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py:883: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py:256: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:182: in pytest_runtest_call
+    raise e
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:172: in pytest_runtest_call
+    item.runtest()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:1772: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:195: in pytest_pyfunc_call
+    result = testfunction(**testargs)
+testcase\test_baiduhomepage.py:52: in test_clickmap
+    baidu_page.find_element(By.XPATH, '//*[@id="s-top-left"]/a[3]').click()
+E   NameError: name 'baidu_page' is not defined
+2025-04-27 09:24:08 [INFO] | conftest.py:17 -- 当前运行的测试函数：test_baiduhomepage.test_clickmore
+2025-04-27 09:24:10 [ERROR] | conftest.py:26 -- case failed : test_clickmore
+error_message :
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:340: in from_call
+    result: Optional[TResult] = func()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:240: in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:87: in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\threadexception.py:63: in thread_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:90: in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\unraisableexception.py:65: in unraisable_exception_runtest_hook
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:849: in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py:832: in _runtest_for
+    yield
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py:883: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py:256: in pytest_runtest_call
+    return (yield)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:182: in pytest_runtest_call
+    raise e
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py:172: in pytest_runtest_call
+    item.runtest()
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:1772: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py:195: in pytest_pyfunc_call
+    result = testfunction(**testargs)
+testcase\test_baiduhomepage.py:66: in test_clickmore
+    more_element = baidu_page.find_element(By.CSS_SELECTOR, "#s-top-left > div > a")
+E   NameError: name 'baidu_page' is not defined
